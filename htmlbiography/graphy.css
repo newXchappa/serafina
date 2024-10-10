@@ -1,0 +1,87 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0e5ec;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #3a3f51;
+    color: #fff;
+    padding: 1.5em 0;
+    text-align: center;
+}
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    font-family: 'Georgia', serif;
+}
+header p {
+    font-size: 1.2em;
+    font-weight: 300;
+    margin: 0.5em 0 0;
+}
+
+.container {
+    width: 80%;
+    margin: 2em auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+/* Bio Card Styles */
+.bio-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 300px;
+}
+.bio-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.25);
+}
+
+.bio-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 20px;
+    float: left;
+}
+
+.bio-content {
+    padding: 20px;
+}
+
+.bio-content h2 {
+    font-size: 1.5em;
+    color: #3a3f51;
+    margin-top: 0;
+}
+
+.bio-content p {
+    line-height: 1.6;
+}
+
+.contact-info {
+    margin-top: 1em;
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #3a3f51;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    font-size: 0.9em;
+    margin-top: 2em;
+}
+
+  
